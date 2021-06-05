@@ -31,7 +31,7 @@
       
     .banner {
         color: #009900;
-        font-size: 75px;
+        font-size: 30px;
     }
     
     #number-submit, #restart-game {
@@ -56,9 +56,9 @@
 
 
 
-@media (min-width: 576px) {
+@media (max-width: 1024px) {
   .banner{
-    font-size: 40px;
+    font-size: 75px;
   }
 
   #number-guess, #result, #history {
