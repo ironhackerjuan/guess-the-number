@@ -1,74 +1,78 @@
+    body {
+        background: black;
+        margin: 0;
+        overflow-y: scroll;
+        padding: 2ch;
+        font-family: monospace;
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+    
+    main {
+        background: #262626;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 1.5rem;
+        width: 100%;
+    }
+    
+    #nav {
+        color: #FF0000;
+    }
+    
+    #number-guess, #result, #history {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    #history {
+        margin-top: 16px;
+    }
+      
+    .banner {
+        color: #009900;
+        font-size: 75px;
+    }
+    
+    #number-submit, #restart-game {
+        color: #ff8000;
+        background-color: black;
+    }
+    
+    .alert-warning {
+        color: #FF8000;
+        background-color: #ffc353;
+        border-color: #ffc353;
+    }
+    
+    .list-group-item {
+        color: #FF0000;
+        background-color: black;
+        border-color: #009900;
+    }
+    
+        /* color: #0000FF;
+         */
 
-body {
-	background: black;
-	margin: 0;
-	overflow-y: scroll;
-	padding: 2ch;
-    font-family: monospace;
-	font-size: 18px;
-	line-height: 1.5rem;
-}
 
-main {
-	background: #262626;
-	margin: 0 auto;
-	max-width: 960px;
-	padding: 1.5rem;
-	width: 100%;
-}
 
-#nav {
-    color: #FF0000;
-}
+@media (min-width: 576px) {
+  .banner{
+    font-size: 40px;
+  }
 
-#number-guess, #result, #history {
-    max-width: 400px;
+  #number-guess, #result, #history {
+    max-width: 450px;
     margin: 0 auto;
-}
-
-#history {
-    margin-top: 16px;
-}
-  
-.banner {
-    color: #009900;
-    font-size: 75px;
+    font-size: 30px;
 }
 
 #number-submit, #restart-game {
-    color: #ff8000;
-    background-color: black;
-}
-
-.alert-warning {
-    color: #FF8000;
-    background-color: #ffc353;
-    border-color: #ffc353;
-}
-
-.list-group-item {
-    color: #FF0000;
-    background-color: black;
-    border-color: #009900;
-}
-
-    /* color: #0000FF;
-     */
-
-@media only screen and (min-width: 768px) {
-  .banner {
-    font-size: 50px;
-  }
-}
-
-@media only screen and (min-width: 480px) and (min-width: 768px) {
-  .banner {
-    font-size: 40px;
-  }
-}
-
-@media only screen and (min-width: 150px) {
-  .banner{
     font-size: 30px;
-  }
+    margin-bottom: 15px;
+}
+  
+  #nav {
+    font-size: 40px;
+    }  
 }
