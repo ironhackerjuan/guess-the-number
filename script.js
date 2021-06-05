@@ -29,9 +29,7 @@ function displayResult(numberGuess) {
   } else {
     showYouWon()
   }
-
 }
-
 
 function initGame(){
 
@@ -64,7 +62,7 @@ function displayHistory() {
 
   while(index >= 0){
     list += "<li class='list-group-item'>" + 
-    "You guessed " + guesses[index] + "</li>";
+    "&lt; You guessed " + guesses[index] + " &gt;" + "</li>";
     index--;
   }
 
